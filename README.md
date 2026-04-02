@@ -26,13 +26,13 @@ NightCoder is designed to be as unobtrusive as possible while still giving you p
 
 NightCoder adjusts your display's gamma lookup tables via CoreGraphics. This works system-wide — every pixel on screen is affected, whether it's your terminal, browser, Finder, or a video. The filter multiplies against your existing gamma curve, preserving any ICC calibration you have in place.
 
-**Warmth** reduces blue light aggressively, green slightly, and red minimally to produce a warm amber tone that's easy on the eyes without looking pink:
+**Warmth** reduces blue light aggressively and green moderately to produce a warm tone that's easy on the eyes. Red is left untouched as it has the lowest impact on eye strain:
 
 | Channel | Max reduction |
 |---------|---------------|
-| Blue    | 65%           |
-| Green   | 15%           |
-| Red     | 5%            |
+| Blue    | 80%           |
+| Green   | 45%           |
+| Red     | 0%            |
 
 **Brightness** caps the maximum output value, taming harsh whites and bright UI elements. At full effect it reduces peak brightness to 50%. This is the single biggest thing for reducing eye strain during long sessions — a `#ffffff` background becomes significantly less aggressive without making dark content unreadable.
 
