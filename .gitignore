@@ -1,0 +1,15 @@
+# Build artifacts
+NightCoder
+NightCoder.app/
+*.o
+*.d
+*.swp
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+DerivedData/
+
+# macOS
+.DS_Store
