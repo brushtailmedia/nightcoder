@@ -11,5 +11,8 @@ NightCoder.app/
 xcuserdata/
 DerivedData/
 
+# Icon generator
+generate_icon.swift
+
 # macOS
 .DS_Store
